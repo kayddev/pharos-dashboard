@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pharos Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Pharos Network Dashboard</h1>
+
+  <div class="container">
+    <div class="card">
+      <h2>Active Wallets</h2>
+      <p id="wallets">Loading...</p>
+    </div>
+
+    <div class="card">
+      <h2>Total Transactions</h2>
+      <p id="txs">Loading...</p>
+    </div>
+
+    <div class="card">
+      <h2>Latest Block</h2>
+      <p id="block">Loading...</p>
+    </div>
+  </div>
+
+  <button onclick="loadData()">Refresh Data</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
